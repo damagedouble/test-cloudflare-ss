@@ -1,0 +1,134 @@
+/**
+Global
+ */
+.flex_box {
+    display: flex;
+    width: 100%;
+}
+
+.flex_gow_2 {
+    flex-grow: 2;
+}
+
+.flex_box > div {
+    margin: auto 0;
+}
+/**
+Our Project
+ */
+.our_project_ft {
+    border-radius: 5px;
+    border: 1px solid #F7F7F7;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 4px 4px rgba(234,234,234,0.5);
+}
+
+.our_project_place .our_project_ft {
+    display: block;
+}
+
+.our_project_place .our_project_st {
+    display: none;
+}
+
+.our_project_ft .icon {
+    min-width: 40px;
+    margin-left: 15px;
+    height: 45px;
+}
+
+.our_project_ft .icon img {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.our_project_ft .divider {
+    height: 3px;
+    width: 40px;
+    margin: 17px 0;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9ee142+0,8ab66b+60,8ab66b+60,1fbb3d+100 */
+    background: #9ee142; /* Old browsers */
+    background: -moz-linear-gradient(left, #9ee142 0%, #8ab66b 60%, #8ab66b 60%, #1fbb3d 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #9ee142 0%,#8ab66b 60%,#8ab66b 60%,#1fbb3d 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #9ee142 0%,#8ab66b 60%,#8ab66b 60%,#1fbb3d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ee142', endColorstr='#1fbb3d',GradientType=1 ); /* IE6-9 */
+}
+
+.our_project_ft .description {
+    height: 55px;
+    overflow: hidden;
+}
+
+.our_project_ft .readmore {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.our_project_ft .next_ico {
+    color: #0DB821;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+
+
+
+/**
+Presentation
+ */
+
+.maxi_presentation > div {
+    margin-bottom: 25px;
+}
+
+@media (min-width: 1240px) {
+    .maxi_presentation {
+        background-image: url("https://ss.the-damage.com/wp-content/plugins/maxi-elementor/assets/css/maxitech.jpg");
+        background-position: right 300px center;
+        background-repeat: no-repeat;
+        height: 635px;
+        position: relative;
+    }
+
+    .maxi_presentation .heading {
+        margin-bottom: 15px;
+    }
+
+    .maxi_presentation .description {
+        margin-bottom: 30px;
+    }
+
+    .maxi_presentation .present_1 {
+        position: absolute;
+        left: -10px;
+        top: 250px;
+        width: 250px;
+    }
+
+    .maxi_presentation .present_2 {
+        position: absolute;
+        left: 620px;
+        top: 30px;
+    }
+
+    .maxi_presentation .present_3 {
+        position: absolute;
+        left: 890px;
+        top: 175px;
+    }
+
+    .maxi_presentation .present_4 {
+        position: absolute;
+        left: 800px;
+        top: 520px;
+    }
+
+    .maxi_presentation .present_5 {
+        position: absolute;
+        left: -10px;
+        top: 520px;
+        width: 340px;
+    }
+}
